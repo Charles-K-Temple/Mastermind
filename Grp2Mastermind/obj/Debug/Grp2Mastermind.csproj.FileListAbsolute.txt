@@ -35,3 +35,12 @@ C:\Mastermind-Joy_branch\Grp2Mastermind\obj\Debug\Grp2Mastermind.csprojResolveAs
 C:\Mastermind-Joy_branch\Grp2Mastermind\obj\Debug\Grp2Mastermind.Form1.resources
 C:\Mastermind-Joy_branch\Grp2Mastermind\obj\Debug\Grp2Mastermind.Properties.Resources.resources
 C:\Mastermind-Joy_branch\Grp2Mastermind\obj\Debug\Grp2Mastermind.csproj.GenerateResource.Cache
+C:\Mastermind\Grp2Mastermind\bin\Debug\Grp2Mastermind.exe.config
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.exe
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.pdb
+C:\Mastermind\Grp2Mastermind\bin\Debug\Grp2Mastermind.exe
+C:\Mastermind\Grp2Mastermind\bin\Debug\Grp2Mastermind.pdb
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.csprojResolveAssemblyReference.cache
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.Form1.resources
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.Properties.Resources.resources
+C:\Mastermind\Grp2Mastermind\obj\Debug\Grp2Mastermind.csproj.GenerateResource.Cache

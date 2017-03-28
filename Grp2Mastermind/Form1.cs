@@ -16,6 +16,7 @@ namespace Grp2Mastermind
         Random rng = new Random();
         string[] colors = new string[] { "blank", "Red", "Blue", "Green", "Yellow", "White", "Black", "Orange", "Violet" };
         int[] computerPix = new int[4];
+        int PointerColor = 0;
         public Form1()
         {
             InitializeComponent();
@@ -78,12 +79,13 @@ namespace Grp2Mastermind
             return numbers;
         }
 
-        private void btn0_Click(object sender, EventArgs e)
+        private void ColorButtonClick(object sender, EventArgs e)
         {
-            string colorX = "Red";
-            //Color = Color.FromName.
-            btn0.Visible = true;
-            btn0.BackColor = Color.FromName(colorX);
+            Button button = sender as Button;
+            string colorX = colors[PointerColor];
+            button.Visible = true;
+            button.BackColor = Color.FromName(colorX);
+            //here you can check which button was clicked by the sender
         }
 
         private void ShowSolution()
@@ -92,6 +94,46 @@ namespace Grp2Mastermind
             pic2.BackColor = Color.FromName(colors[computerPix[1]]);
             pic3.BackColor = Color.FromName(colors[computerPix[2]]);
             pic4.BackColor = Color.FromName(colors[computerPix[3]]);
+        }
+
+        private void btnRed_Click(object sender, EventArgs e)
+        {
+            PointerColor = 1;
+        }
+
+        private void btnBlue_Click(object sender, EventArgs e)
+        {
+            PointerColor = 2;
+        }
+
+        private void btnGreen_Click(object sender, EventArgs e)
+        {
+            PointerColor = 3;
+        }
+
+        private void btnYellow_Click(object sender, EventArgs e)
+        {
+            PointerColor = 4;
+        }
+
+        private void btnWhite_Click(object sender, EventArgs e)
+        {
+            PointerColor = 5;
+        }
+
+        private void btnBlack_Click(object sender, EventArgs e)
+        {
+            PointerColor = 6;
+        }
+
+        private void btnOrange_Click(object sender, EventArgs e)
+        {
+            PointerColor = 7;
+        }
+
+        private void btnViolet_Click(object sender, EventArgs e)
+        {
+            PointerColor = 8;
         }
     }
 }
